@@ -1,0 +1,86 @@
+header{
+    background:#fff;
+    padding:10px;
+    box-shadow:0 2px 4px rgb( 0 0 0 /8%);
+    position:relative;
+    z-index:44;
+}
+nav ul{
+    display:flex;
+    list-style-type:none;
+}
+nav li a{
+    list-style-type:none;
+}
+nav a{
+    text-transform:capitalize;
+    margin-right:30px;
+    color:#000;
+    text-decoration:none;
+    font-size:20px;
+}
+
+
+/* profile */
+.profile{
+    margin-left:30px;
+    cursor:pointer;
+}
+.profile .image{
+    display:flex;
+    padding-bottom:20px;
+}
+
+.profile .image img{
+    margin-right:20px;
+}
+
+.profile button{
+    font-size:17px;
+    font-weight:500;
+}
+.profile img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.openProfile{
+    color:#000;
+    box-shadow:0 2px 4px rgb( 0 0 0 /8%);
+    position:absolute;
+    top:80px;
+    right:10px;
+    width:250px;
+    background-color:#fff;
+}
+
+.openProfile .box{
+    display:flex;
+    align-items: center;
+    width:100%;
+    margin-top:10px;
+    padding:5px;
+    transition:0.5s;
+}
+
+.openProfile .icon{
+    font-size:20px;
+    margin-left:20px;
+    margin-right:10px;
+}
+
+.openProfile h4{
+    font-size:15px;
+    font-weight:500;
+}
+
+.openProfile button:hover{
+    background:rgba(147, 75, 255, 0.075); 
+}
+@media screen and (max-width:768px){
+    nav{
+      display:none;
+    }
+    }

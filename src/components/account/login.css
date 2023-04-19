@@ -1,0 +1,132 @@
+.login{
+    box-sizing:border-box;
+    background-color:powderblue;
+    margin:100px;
+    border-radius:40%;
+}
+.login:hover{
+    transform:translateY(-5%);
+    transition:0.2s ease-out;
+}
+.locontainer{
+    padding-bottom:100px;
+    padding-top:20px;
+}
+.separate{
+    display:block;
+    align-items:center;
+    justify-content:center;
+    margin-left:25%;
+    text-align:center;
+    margin-top:3%;
+   width:70%;
+}
+.first-div{
+    padding-top:10px;
+}
+.first-div img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    margin:10%;
+    margin-left:-15%;
+    margin-bottom:2%;
+}
+.first-div img:hover{
+    transform:scaleY(5%);
+}
+.second-div{
+    padding-top:30px;
+    width:80%;
+    height:350px;
+    display:block;
+    flex-direction:column;
+    background-color:rgb(6, 245, 6);
+    justify-content:center;
+    border-radius:20px;
+    margin-bottom:100px;
+    padding-bottom:100px;
+}
+.second-div h1{
+    color:white;
+}
+.forms{
+    display:flex;
+    flex-direction:column;
+}
+.forms input{
+    border:none;
+    background-color:rgb(223, 220, 220);
+    border-radius:10px;
+    height:50px;
+    width:80%;
+    padding-left:10px;
+    margin-left:40px;
+    outline:none;
+}
+.forms input:focus{
+    outline:none;
+}
+.forms label{
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+    color:white;
+}
+p{
+    margin-top:20%;
+}
+p a{
+    color:green;
+    background-color:white;
+    border:none;
+    border-radius:20px;
+    text-align:center;
+    height: 30px;
+    width:30px;
+    margin-left:10%;
+    padding-left:10px;
+    padding-right:10px;
+    margin-right:10px;
+    text-align:center;
+
+}
+.but{
+    color:green;
+    background-color:white;
+    border:none;
+    border-radius:10px;
+    height:50px;
+    width:50%;
+    font-size:20px;
+    font-family:cursive;
+    margin-top:20px;
+    padding-left:10px;
+    margin-left:25%;
+    outline:none;
+    align-items:center;
+    justify-content:center;
+}
+@media screen and (max-width:500px){
+    .login{
+        border-radius:5px;
+        margin:5px;
+}
+.second-div{
+    padding-top:30px;
+    width:100%;
+    justify-content:center;
+    border-radius:20px;
+    margin-bottom:100px;
+    padding-bottom:100px;
+    margin-left:-40px;
+    padding-left:-100px;
+}
+.forms input{
+    height:50px;
+    width:80%;
+    padding-left:10px;
+    margin-left:40px;
+    outline:none;
+}
+}
